@@ -1,0 +1,310 @@
+
+> qoder-site-react-starter@0.1.0 predev
+> node scripts/check-node.mjs
+
+
+> qoder-site-react-starter@0.1.0 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v8.0.13[39m  [2mready in [0m[1m2528[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m9:10:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:40 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:40 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:40 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:40 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\tailwindcss\index.css'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/globals.css[22m
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m9:10:41 PM[22m [36m[1m[vite][22m[39m server restarted.
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:41 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
+[31mUnable to resolve `@import "tailwindcss"` from C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src[39m
+[2m9:10:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] ENOENT: no such file or directory, open 'C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\tailwindcss'[39m
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/src/globals.css[39m:undefined:NaN
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1252:14)
+      at async Object.load (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21000:17)
+      at async loadImportContent (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:392:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:378:20)
+      at async parseStyles (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:331:4)
+      at async Object.Once (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/postcss-import.js:455:20)
+      at async LazyResult.runAsync (C:\Users\arsen\Documents\Qoder\2026-10-15\a382fb82\node_modules\postcss\lib\lazy-result.js:299:11)
+      at async runPostCSS (file:///C:/Users/arsen/Documents/Qoder/2026-10-15/a382fb82/node_modules/vite/dist/node/chunks/node.js:21054:19)
